@@ -7,7 +7,7 @@
     height: 60px;
     width: 100%;
   }
-  
+
   .leftInnerContainer {
     flex: 0.5;
     display: flex;
@@ -15,14 +15,39 @@
     margin-left: 5%;
     color: white;
   }
-  
+
   .rightInnerContainer {
     display: flex;
     flex: 0.5;
     justify-content: flex-end;
     margin-right: 5%;
+
   }
-  
+
+  .centerContainer{
+    margin-right: -30px;
+  }
+  button{
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
   .onlineIcon {
     margin-right: 5%;
+  }
+  @media (min-width: 320px) and (max-width: 710px) {
+    .close {
+      display: none;
+    }
+    .rightInnerContainer {
+      margin-right: 15%;
+      margin-top:4px;
+    }
+    .centerContainer{
+      margin-right: -35px;
+    }
+
   }
