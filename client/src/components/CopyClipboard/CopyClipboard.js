@@ -34,9 +34,9 @@ saveChanges = () => {
       <div>
         <div>
           <textarea
-            style={{width:"0px", height:"0px"}}
+            style={{width:"0px", height:"0px",opacity:"0",resize:"none"}}
             ref={(textarea) => this.textArea = textarea}
-            value={"hello" +this.props.room}
+            value={"Your friend "+ this.props.name +" has created a dynamic chat room and has invited you to join.\nLogin with the following credentials on the given link. \n*Room ID:* " + this.props.room + "\n*Link*: http://localhost:3000" }
             onChange={(event)=>this.inputChangedHandler(event)}
           />
         </div>

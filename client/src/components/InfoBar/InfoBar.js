@@ -10,7 +10,7 @@ import CopyClipboard from '../CopyClipboard/CopyClipboard';
 import './InfoBar.css';
 
 
-const InfoBar = ({ users, room }) => (
+const InfoBar = ({ users, room, name }) => (
     <div className="infoBar">
         <div className="leftInnerContainer">
                 <img className="onlineIcon" src={onlineIcon} alt="online icon" />
@@ -18,7 +18,7 @@ const InfoBar = ({ users, room }) => (
 
         </div>
         <div className="centerContainer">
-          <CopyClipboard room={room} />
+          <CopyClipboard room={room} name={name} />
         </div>
 
         <div className="rightInnerContainer">
