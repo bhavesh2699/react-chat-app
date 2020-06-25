@@ -3,6 +3,8 @@ import React from 'react';
 import onlineIcon from '../../icons/onlineIcon.png';
 import closeIcon from '../../icons/closeIcon.png';
 import Navbar from '../Navbar/Navbar';
+import CopyClipboard from '../CopyClipboard/CopyClipboard';
+
 
 
 import './InfoBar.css';
@@ -16,7 +18,7 @@ const InfoBar = ({ users, room }) => (
 
         </div>
         <div className="centerContainer">
-          <button style={{fontSize:"24px",margin:"2px"}}><i className="fa fa-share"></i> Invite</button>
+          <CopyClipboard room={room} />
         </div>
 
         <div className="rightInnerContainer">
