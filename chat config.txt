@@ -1,0 +1,26 @@
+heroku login
+Create a new Git repository
+Initialize a git repository in a new or existing directory
+
+
+git init
+heroku git:remote -a chat-backend-app
+
+git add .
+git commit -am "make it better"
+git push heroku master
+
+============================================
+Frontend:
+
+https://angry-raman-dfeeeb.netlify.app/
+https://cutt.ly/ChatOn
+
+============================================
+Backend:
+
+https://chat-backend-app.herokuapp.com/
+
+
+
+
