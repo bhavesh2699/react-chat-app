@@ -20,7 +20,7 @@ https://cutt.ly/ChatOn
 Backend:
 
 https://chat-backend-app.herokuapp.com/
-
+https://cutt.ly/chatonserver
 
 
 
